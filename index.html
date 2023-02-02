@@ -13,7 +13,7 @@
     <header>
         <img class="header__logo" src='img/logo.svg' alt="logo"> 
         <div class="header__controls">
-            <a href="#contacts">Контакты</a>
+            <a href="#form">Контакты</a>
             <button>Заказать</button>
           </div>
     </header>
@@ -23,7 +23,7 @@
             <div class="about__info animate__animated animate__fadeInLeft animate__slow">
                 <h1>Солнечные панели GreenRobotic</h1>
                 <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-                <button>Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
+                <button class="more-button" href="#features">Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
                 </div>
                 <div class="about__images animate__animated animate__fadeInRight animate__slow">
                     <img class="about__sun-image" src="img/sun.png" alt="sun">
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-form">
+        <section id="form" class="section-form">
             <div class="form__container">
                 <h1 class="form__title">Оставьте свои контакты</h1>
                 <p class="form__text">Поможем подобрать модель.<br>Выбрать удобный вариант доставки и установки.<br>Гарантия возврата денег.</p>
@@ -111,7 +111,7 @@
                             <option value="10–30">10 000-30 000р</option>
                             <option value="30–60">30 000-60 000р</option>
                             <option value="60–100">60 000-100 000р</option>
-                            <option value="100+">100 000р</option>
+                            <option value="other">Другое</option>
                         </select>
                     </div>
                     <button class="form__submit" type="submit">Отправить заявку</button>
@@ -138,7 +138,7 @@
                 <h3 class="footer__group-title">Компания</h3>
                 <div class="footer__links">
                     <a class="footer__links-item" href="#">Вакансии</a>
-                    <a class="footer__links-item" href="#">Контакты</a>
+                    <a class="footer__links-item" href="#form">Контакты</a>
                     <a class="footer__links-item" href="#">СМИ</a>    
                 </div>
             </div>
